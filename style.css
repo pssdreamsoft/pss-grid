@@ -3,3 +3,66 @@ body{
     margin: 0;
     padding: 0;
 }
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.pss-wrap{
+    max-height: 100%;
+    margin: 0 auto;
+}
+.pss-wrap.wp,
+.pss-wrap-full.wp{
+    padding: 0 15px;
+}
+.pss-section.wm{
+    margin: 0 -15px;
+}
+.pss-section{
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+}
+
+/*Alignment*/
+.pss-section.jc-start{
+    justify-content: flex-start;
+}
+.pss-section.jc-end{
+    justify-content: flex-end;
+}
+.pss-section.jc-center{
+    justify-content: center;
+}
+.pss-section.jc-sb{
+    justify-content: space-between;
+}
+.pss-section.jc-sa{
+    justify-content: space-around;
+}
+.pss-section.jc-se{
+    justify-content: space-evenly;
+}
+
+/**/
+.pss-section.ai-stretch{
+    align-items: stretch;
+}
+.pss-section.ai-start{
+    align-items: flex-start;
+}
+.pss-section.ai-end{
+    align-items: flex-end;
+}
+.pss-section.ai-center{
+    align-items: center;
+}
+.pss-section.ai-baseline{
+    align-items: baseline;
+}
+
+.pss-section.wm{
+    margin: 0 -15px;
+}
+.pss-section.wm .pss-col{
+    padding: 0 15px;
+}
